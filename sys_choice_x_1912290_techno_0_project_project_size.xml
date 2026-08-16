@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="project_size" table="x_1912290_techno_0_project" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>project_size</element>
+            <name>x_1912290_techno_0_project</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 12:39:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>project_size</sys_name>
+            <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+            <sys_update_name>sys_choice_x_1912290_techno_0_project_project_size</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 12:39:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Small</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 12:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 12:39:34</sys_updated_on>
+            <value>Small</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 12:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 12:39:34</sys_updated_on>
+            <value>Medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Large</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 12:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 12:39:34</sys_updated_on>
+            <value>Large</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>project_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 12:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 12:39:34</sys_updated_on>
+            <value>Enterprise</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

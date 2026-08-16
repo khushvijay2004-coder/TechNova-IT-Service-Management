@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="issue_category" table="x_1912290_techno_0_project_issue" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>issue_category</element>
+            <name>x_1912290_techno_0_project_issue</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 05:17:57</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>issue_category</sys_name>
+            <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+            <sys_update_name>sys_choice_x_1912290_techno_0_project_issue_issue_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:17:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>issue_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CI/CD &amp; Pipeline</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project_issue</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 05:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:17:57</sys_updated_on>
+            <value>CI/CD &amp; Pipeline</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>issue_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database and API</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project_issue</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 05:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:17:57</sys_updated_on>
+            <value>Database and API</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>issue_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environment &amp; Access</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project_issue</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 05:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:17:57</sys_updated_on>
+            <value>Environment &amp; Access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>issue_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Violation</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project_issue</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 05:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:17:57</sys_updated_on>
+            <value>Security Violation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>issue_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UI Assets &amp; Mockups</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project_issue</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 05:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:17:57</sys_updated_on>
+            <value>UI Assets &amp; Mockups</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
