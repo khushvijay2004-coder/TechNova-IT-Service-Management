@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="452f5b078376fa10489aa430ceaad3b9" extends="task" label="Project Issue" max_length="40" name="x_1912290_techno_0_project_issue" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue Category" max_length="40" name="issue_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CI/CD &amp; Pipeline" sequence="0" value="CI/CD &amp; Pipeline"/>
+                <element inactive_on_update="false" label="Environment &amp; Access" sequence="2" value="Environment &amp; Access"/>
+                <element inactive_on_update="false" label="UI Assets &amp; Mockups" sequence="4" value="UI Assets &amp; Mockups"/>
+                <element inactive_on_update="false" label="Database and API" sequence="1" value="Database and API"/>
+                <element inactive_on_update="false" label="Security Violation" sequence="3" value="Security Violation"/>
+            </choice>
+        </element>
+        <element display="true" label="Issue Title" max_length="40" name="issue_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue Status" max_length="40" name="issue_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="Pending"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Resolved" sequence="1" value="Resolved"/>
+                <element inactive_on_update="false" label="Canceled" sequence="3" value="Canceled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="5" value="In Progress"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="Closed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="4" value="On Hold"/>
+            </choice>
+        </element>
+        <element label="Emergency Contact" max_length="40" name="emergency_contact" type="string"/>
+        <element label="Issue Resolution Notes" max_length="4000" name="resulution_notes" type="string"/>
+        <element label="Resolution Notes" max_length="255" name="resolution_notes" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project Name" max_length="32" name="project_name" reference="x_1912290_techno_0_project" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Issue Assigned to" max_length="32" name="issue_assigned_to" reference="sys_user" reference_qual="roles=x_1912290_techno_0.technova.architect^ORroles=x_1912290_techno_0.technova.developer^ORroles=x_1912290_techno_0.technova.qa^ORroles=x_1912290_techno_0.technova.operations^ORroles=x_1912290_techno_0.technova.manager^EQ" reference_qual_condition="roles=x_1912290_techno_0.technova.architect^ORroles=x_1912290_techno_0.technova.developer^ORroles=x_1912290_techno_0.technova.qa^ORroles=x_1912290_techno_0.technova.operations^ORroles=x_1912290_techno_0.technova.manager^EQ" type="reference"/>
+        <element label="Issue Description" max_length="255" name="issue_description" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue Severity" max_length="40" name="issue_severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="Critical"/>
+                <element inactive_on_update="false" label="Minor" sequence="2" value="Minor"/>
+                <element inactive_on_update="false" label="Major" sequence="1" value="Major"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue Priority" max_length="40" name="issue_priority" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

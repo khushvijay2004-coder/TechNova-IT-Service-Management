@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="435c1f8f8336fa10489aa430ceaad3ed" extends="task" label="Projct Issue" max_length="40" name="x_1912290_techno_0_projct_issue" type="collection">
+        <element display="true" label="Issue Title" max_length="40" name="issue_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Resulution Notes" max_length="255" name="resulution_notes" type="string_full_utf8"/>
+        <element label="Resolution Notes" max_length="255" name="resolution_notes" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project Name" max_length="32" name="project_name" reference="x_1912290_techno_0_project" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Severity" max_length="40" name="severity" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Issue Assigned to" max_length="32" name="issue_assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue Priority" max_length="40" name="issue_priority" type="choice">
+            <choice/>
+        </element>
+        <element label="Issue Description" max_length="255" name="issue_description" type="string_full_utf8"/>
+    </element>
+</database>

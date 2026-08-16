@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f4a43cb83b2fa10489aa430ceaad306" label="Employee's Skills" max_length="40" name="x_1912290_techno_0_employee_s_skills" type="collection">
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Skills" max_length="4000" name="skills" reference="x_1912290_techno_0_skills" type="glide_list">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Proficiency Level" max_length="40" name="proficiency_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Expert" sequence="2" value="Expert"/>
+                <element inactive_on_update="false" label="Intermediate" sequence="1" value="Intermediate"/>
+                <element inactive_on_update="false" label="Begineer" sequence="0" value="Begineer"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Unique ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" reference_qual="roles=x_1912290_techno_0.technova.manager^ORroles=x_1912290_techno_0.technova.operations^ORroles=x_1912290_techno_0.technova.architect^ORroles=x_1912290_techno_0.technova.developer^ORroles=x_1912290_techno_0.technova.qa^EQ" reference_qual_condition="roles=x_1912290_techno_0.technova.manager^ORroles=x_1912290_techno_0.technova.operations^ORroles=x_1912290_techno_0.technova.architect^ORroles=x_1912290_techno_0.technova.developer^ORroles=x_1912290_techno_0.technova.qa^EQ" type="reference"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+    </element>
+</database>

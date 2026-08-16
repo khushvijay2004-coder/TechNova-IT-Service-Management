@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="226a701f83100310489aa430ceaad31e" label="Invoice" max_length="40" name="x_1912290_techno_0_invoice" type="collection">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Amount" max_length="20" name="amount" type="price"/>
+        <element label="Contract" max_length="40" name="contract" type="string"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

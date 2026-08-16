@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a4b64bea830bb210489aa430ceaad30e" extends="sys_import_set_row" label="Import User Skill Mapping " max_length="40" name="x_1912290_techno_0_import_user_skill_mapping_" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Employee Email" label="Employee Email" max_length="40" name="u_employee_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Proficiency" label="Proficiency" max_length="40" name="u_proficiency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Skill Name" label="Skill Name" max_length="40" name="u_skill_name" type="string"/>
+    </element>
+</database>

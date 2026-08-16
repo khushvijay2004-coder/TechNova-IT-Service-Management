@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fb4a2abe83d73210489aa430ceaad3b6" label="TechNova Project Story" max_length="40" name="x_1912290_techno_0_technova_project_story" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Points" max_length="40" name="points" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Complete" sequence="4" value="Complete"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="In Progress"/>
+                <element inactive_on_update="false" label="Testing" sequence="3" value="Testing"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="Ready"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element display="true" label="Title" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project" max_length="32" name="project" reference="x_1912290_techno_0_project" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Documentation" sequence="2" value="Documentation"/>
+                <element inactive_on_update="false" label="Design" sequence="1" value="Design"/>
+                <element inactive_on_update="false" label="Development" sequence="0" value="Development"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Story ID" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

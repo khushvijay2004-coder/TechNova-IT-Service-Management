@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b8c298f88347f650489aa430ceaad3cd" label="ACL Demo" max_length="40" name="x_1912290_techno_0_acl_demo" type="collection">
+        <element label="first name" max_length="40" name="first_name" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="last name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact No." max_length="40" name="contact_no" type="integer"/>
+    </element>
+</database>

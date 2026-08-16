@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="1b203583830f3210489aa430ceaad390" extends="dl_matcher" label="Data Lookup Matcher Project" max_length="40" name="x_1912290_techno_0_data_lookup_matcher_project" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive="true" inactive_on_update="true" label="Hign" sequence="0" value="Hign"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="44afbac38372fa10489aa430ceaad372" label="Project" max_length="40" name="x_1912290_techno_0_project" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Planning" sequence="0" value="Planning"/>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="On Hold"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project Size" max_length="40" name="project_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enterprise" sequence="3" value="Enterprise"/>
+                <element inactive_on_update="false" label="Small" sequence="0" value="Small"/>
+                <element inactive_on_update="false" label="Large" sequence="2" value="Large"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+            </choice>
+        </element>
+        <element label="Expected Finish Date" max_length="40" name="expected_finish_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Skills Required" max_length="4000" name="skills_required" reference="x_1912290_techno_0_skills" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project's Manager Name" max_length="40" name="project_s_manager_name" reference="sys_user" reference_qual="roles=x_1912290_techno_0.technova.manager^EQ" reference_qual_condition="roles=x_1912290_techno_0.technova.manager^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Architect" max_length="40" name="number_of_architect" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Numeber of QA Needed" max_length="40" name="numeber_of_qa_needed" type="integer"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Unique ID" max_length="40" name="number" type="string"/>
+        <element label="Completion Date" max_length="40" name="completion_date" type="glide_date"/>
+        <element display="true" label="Project Name" max_length="40" name="project_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Developer Needed" max_length="40" name="number_of_developer_needed" type="integer"/>
+        <index name="index">
+            <element name="project_s_manager_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0a91c7c78372fa10489aa430ceaad322" label="Skills" max_length="40" name="x_1912290_techno_0_skills" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Unique ID" max_length="40" name="number" type="string"/>
+        <element label="Description" max_length="8000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Design" sequence="0" value="Design"/>
+                <element inactive_on_update="false" label="Management" sequence="1" value="Management"/>
+                <element inactive="true" inactive_on_update="true" label="CPP" sequence="1" value="CPP"/>
+                <element inactive="true" inactive_on_update="true" label="Testing" sequence="4" value="Testing"/>
+                <element inactive="true" inactive_on_update="true" label="Java" sequence="0" value="Java"/>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="Technical"/>
+                <element inactive="true" inactive_on_update="true" label="ServiceNow Admin" sequence="3" value="ServiceNow Admin"/>
+                <element inactive_on_update="false" label="DevOps" sequence="3" value="DevOps"/>
+                <element inactive="true" inactive_on_update="true" label="REST" sequence="2" value="REST"/>
+                <element inactive_on_update="false" label="QA" sequence="2" value="QA"/>
+            </choice>
+        </element>
+        <element display="true" label="Skill Name" max_length="40" name="skill_name" type="string"/>
+    </element>
+</database>
